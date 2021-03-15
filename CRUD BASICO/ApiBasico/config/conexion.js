@@ -15,3 +15,5 @@ conexion.connect((err)=>{
     else
     {console.log(' la base de datos se conecto!!!')}
 });
+
+module.exports=conexion
